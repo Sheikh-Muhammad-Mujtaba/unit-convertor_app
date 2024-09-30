@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Unit Converter App
 
-## Getting Started
+This is a **Unit Converter** application built with **React** and **TypeScript**. The app allows users to convert values between different units of **length**, **weight**, and **volume**. It features a clean, user-friendly interface and dynamic input fields for selecting units and entering values.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Convert between different units of length, weight, and volume.
+- Dynamic input fields for selecting units and entering values.
+- Provides real-time conversion results.
+- Alerts users if they attempt to convert incompatible units.
+- Responsive design, ensuring usability across different device sizes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: UI framework for building the front-end.
+- **TypeScript**: Type-safe JavaScript for enhanced development.
+- **Tailwind CSS**: For styling and responsive design.
+- **Shadcn UI**: For UI components such as Select, Input, Button, and Label.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. Select the **unit type** for the value you want to convert (e.g., length, weight, or volume).
+2. Choose the **input unit** and **output unit** from the drop-down menu.
+3. Enter the **value** you want to convert.
+4. Click the **Convert** button to view the result.
+5. The converted value will be displayed along with the selected output unit.
 
-To learn more about Next.js, take a look at the following resources:
+## Conversion Units
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Length
+- Millimeters (mm)
+- Centimeters (cm)
+- Meters (m)
+- Kilometers (km)
+- Inches (in)
+- Feet (ft)
+- Yards (yd)
+- Miles (mi)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Weight
+- Grams (g)
+- Kilograms (kg)
+- Ounces (oz)
+- Pounds (lb)
 
-## Deploy on Vercel
+### Volume
+- Milliliters (ml)
+- Liters (l)
+- Fluid Ounces (fl oz)
+- Cups (cup)
+- Pints (pt)
+- Quarts (qt)
+- Gallons (gal)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Add more unit categories (e.g., temperature, time).
+- Allow users to input negative values for certain conversions.
+- Provide suggestions or automatic conversion for commonly used units.
